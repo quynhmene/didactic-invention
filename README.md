@@ -1,8 +1,8 @@
 --
-local function loadAndRunScript(url)
-    print("LOADING SCRIPT FROM: " .. url)
+local function loadAndRunScript(https://github.com/quynhmene/didactic-invention/blob/main/README.md)
+    print("LOADING SCRIPT FROM: " .. https://github.com/quynhmene/didactic-invention/blob/main/README.md)
     local success, result = pcall(function()
-        return loadstring(game:HttpGet())()
+        return loadstring(game:HttpGet(https://github.com/quynhmene/didactic-invention/blob/main/README.md))()
     end)
     if not success then
         print("ERROR LOADING SCRIPT: " .. result)
@@ -26,14 +26,14 @@ local gameScripts = {
 
 local myPlaceId = game.PlaceId
 
--- Kiểm tra nếu trò chơi được hỗ trợ
+
 local scriptName = gameScripts[myPlaceId]
 if scriptName then
-    -- Thay đổi URL script của bạn ở đây
-    local yourScriptURL = "URL_MỚI_CỦA_BẠN"
+
+    local yourScriptURL = "https://github.com/quynhmene/didactic-invention/blob/main/README.md"
   )
 else
-    -- Nếu trò chơi không được hỗ trợ
+    
     game.StarterGui:SetCore("SendNotification", {
         Title = "Error",
         Text = "GAME NOT SUPPORTED",
